@@ -3,7 +3,7 @@ package personnages;
 public class Humain {
 	private String nom;
 	private String fvboisson;
-	private int argent;
+	protected int argent;
 	
 	
 	
@@ -29,7 +29,7 @@ public class Humain {
 	
 	
 	public void parler(String texte) {
-		System.out.println("( " + this.nom + ")" + "-" + texte  );
+		System.out.println("(" + this.nom + ")" + "-" + texte  );
 	}
 	public void direBonjour() {
 		parler(" Bonjour! Je m'appelle " + this.nom + " et j'aime boire du " + this.fvboisson + ".");
