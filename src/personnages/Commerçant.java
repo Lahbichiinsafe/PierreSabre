@@ -8,8 +8,8 @@ public class Commerçant extends Humain {
 	
 	public int seFaireExtorquer() {
 		
-		argent = this.getArgent();
-		perdreArgent(argent);
+	
+		perdreArgent(this.getArgent());
 		parler(" J'ai tout perdu! Le monde est trop injuste...");
 		
 		return argent;
