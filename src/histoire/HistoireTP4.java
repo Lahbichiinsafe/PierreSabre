@@ -26,9 +26,9 @@ public class HistoireTP4 {
 	
 	commercant.direBonjour();
 	
-	commercant.seFaireExtorquer();
-	commercant.recevoir(15);
-	commercant.boire();
+	//commercant.seFaireExtorquer();
+	//commercant.recevoir(15);
+	//commercant.boire();
 	
 	
 	
